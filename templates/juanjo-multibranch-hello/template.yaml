@@ -1,0 +1,18 @@
+version: 1
+type: pipeline-template
+
+name: Juanjo multibranch Pipeline Job
+description: Juanjo example multibranch app
+parameters:
+  - name: repoUrl
+    type: string
+    displayName: Repo
+  - name: git_creds
+    displayName: GitHub Credentials ID
+    type: credentials
+    defaultValue: github-creds-exampleaa
+multibranch:
+  branchSource:
+    git:
+      remote: ${repoUrl}
+      #      credentialsId: ${git-creds}
