@@ -4,6 +4,10 @@ description: Juanjo example multibranch app
 type: pipeline-template
 templateType: MULTIBRANCH
 parameters:
+  - name: hellomsg
+    type: string
+    displayName: Hello message
+    defaultValue: "hayo default"
   - name: repoUrl
     type: string
     displayName: Repo
