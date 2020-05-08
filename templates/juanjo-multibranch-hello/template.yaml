@@ -1,8 +1,8 @@
 version: 1
-type: pipeline-template
-
 name: Juanjo multibranch Pipeline Job
 description: Juanjo example multibranch app
+type: pipeline-template
+templateType: MULTIBRANCH
 parameters:
   - name: repoUrl
     type: string
