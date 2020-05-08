@@ -7,7 +7,7 @@ parameters:
   - name: hellomsg
     type: string
     displayName: Hello message
-    defaultValue: "hayo default"
+    defaultValue: "hayo defaulta"
   - name: repoUrl
     type: string
     displayName: Repo
