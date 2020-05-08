@@ -10,4 +10,4 @@ parameters:
   - name: github_creds
     displayName: GitHub Credentials ID
     type: credentials
-    defaultValue: github-creds-example
+    defaultValue: github-creds-exampleaa
