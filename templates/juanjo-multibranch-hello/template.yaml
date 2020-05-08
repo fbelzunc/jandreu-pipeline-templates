@@ -20,7 +20,7 @@ multibranch:
     git:
       remote: ${repoUrl}
       #      credentialsId: ${git-creds}
-    strategy:
-      $class: DefaultBranchPropertyStrategy # All branches get the same properties
-      props:
-        - $class: NoTriggerBranchProperty # Suppress automatic SCM triggering
+      strategy:
+        $class: DefaultBranchPropertyStrategy # All branches get the same properties
+        props:
+          - $class: NoTriggerBranchProperty # Suppress automatic SCM triggering
