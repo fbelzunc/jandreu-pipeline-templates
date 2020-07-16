@@ -96,9 +96,7 @@ parameters:
 multibranch:
   branchSource:
     github:
-      apiUri: https://github.com/
-      repoOwner: ${repoOwner}
-      repository: ${repoName}
+      apiUri: https://github.com/fbelzunc/testing.git
     strategy:
       $class: DefaultBranchPropertyStrategy # All branches get the same properties
       props:
