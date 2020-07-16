@@ -103,6 +103,4 @@ multibranch:
         $class: DefaultBranchPropertyStrategy # All branches get the same properties
         props:
           - $class: NoTriggerBranchProperty
-  markerFile: gradle.yaml
-
 
