@@ -96,10 +96,9 @@ parameters:
 multibranch:
   branchSource:
     github:
-      apiUri: https://github.com/fbelzunc/testing.git
+      apiUri: https://github.com/fbelzunc/testing
       repoOwner: ${repoOwner}
       repository: ${repoName}
-      credentialsId: jenkinsservice_github_token
     strategy:
       $class: DefaultBranchPropertyStrategy # All branches get the same properties
       props:
