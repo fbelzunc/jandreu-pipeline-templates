@@ -98,6 +98,7 @@ multibranch:
     github:
       repoOwner: ${repoOwner}
       repository: ${repoName}
+      credentialsId: fbelzunc_github_token
       strategy:
         $class: DefaultBranchPropertyStrategy # All branches get the same properties
         props:
