@@ -70,7 +70,6 @@ parameters:
     allowedValues:
       - JAVA_8
       - JAVA_11
-      - JAVA_7
 
   - name: gateSnapshots
     type: boolean
