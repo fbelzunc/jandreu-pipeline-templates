@@ -96,7 +96,7 @@ parameters:
 multibranch:
   branchSource:
     github:
-      apiUri: https://github.com/fbelzunc/testing
+      apiUri: https://github.com/
       repoOwner: ${repoOwner}
       repository: ${repoName}
     strategy:
