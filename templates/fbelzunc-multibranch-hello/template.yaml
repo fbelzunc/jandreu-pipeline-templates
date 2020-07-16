@@ -96,11 +96,12 @@ parameters:
 multibranch:
   branchSource:
     github:
-      apiUri: https://github.com/fbelzunc/testing.git
-    strategy:
-      $class: DefaultBranchPropertyStrategy # All branches get the same properties
-      props:
-        - $class: NoTriggerBranchProperty
+      repoOwner: ${repoOwner}
+      repository: ${repoName}
+      strategy:
+        $class: DefaultBranchPropertyStrategy # All branches get the same properties
+        props:
+          - $class: NoTriggerBranchProperty
   markerFile: gradle.yaml
 
 
